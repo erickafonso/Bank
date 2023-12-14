@@ -27,6 +27,44 @@ public class Main {
         System.out.println("#3 - Investimento       #");
         System.out.println("#4 - Sair               #");
         opcao = ler.nextInt();
+        
+        switch(opcao){
+            case 1:
+                String chave;
+                int opcao_chave = 0;
+                do{
+                System.out.println("#Digite uma opção de chave       #");
+                System.out.println("#1 - Telefone                    #");
+                System.out.println("#2 - CPF/CNPJ                    #");
+                System.out.println("#3 - Email                       #");
+                System.out.println("#4 - Chave aleatória             #");
+                System.out.println("#5 - Voltar                      #");
+                opcao_chave = ler.nextInt();
+                if(opcao_chave == 5){
+                    break;
+                }
+                else{
+                    System.out.println("Digite a chave:");
+                    ler.next();
+                    System.out.println("Digite a chave novamente");
+                    chave = ler.next();
+                    break;
+                }
+                } while(opcao_chave != 5);
+                break;
+                
+                // ESCREVA AQUI NO MEIO OS OUTROS CASES 
+                
+                
+                
+                
+                
+                
+                
+
+                // ESCREVA AQUI NO MEIO OS OUTROS CASES 
+                
+        }
 
         
         }while(opcao!=4);
