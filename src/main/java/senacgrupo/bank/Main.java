@@ -52,6 +52,23 @@ public class Main {
                 }
                 } while(opcao_chave != 5);
                 break;
+                case 2:
+                System.out.println("Cole o Qr code do boleto a ser pago: ");
+                ler.nextLine();
+                String code = ler.nextLine();
+                System.out.println("\ninforme o valor: ");
+                float valor=ler.nextFloat();
+                System.out.println("\nInforme a data do pagamento: ");
+                ler.nextLine();
+                String data = ler.nextLine();
+                System.out.println("\nInforme a hora entre 8 e 16? ");
+                int hora = ler.nextInt();
+                System.out.println("\n\nRECIBO");
+                System.out.println("Qr code: "+code);
+                System.out.println("Valor pago: "+valor);
+                System.out.println("Data pagamento: "+data);
+                System.out.println("Hora do pagamento: "+hora);
+                break;
                 
                 // ESCREVA AQUI NO MEIO OS OUTROS CASES 
                 
