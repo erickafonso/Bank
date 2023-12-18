@@ -17,6 +17,7 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner ler = new Scanner(System.in);
+        float aplicacao = 0;
         int opcao;
         do{
         System.out.println("#Bem vindo ao BANCO     #");
