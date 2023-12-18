@@ -70,6 +70,42 @@ public class Main {
                 System.out.println("Hora do pagamento: "+hora);
                 break;
                 
+                
+                case 3:
+                    int opcao_invest = 0;
+                    float valor_aplicacao = 0;
+                    do{
+                    
+                    System.out.println("#Digite uma opção         #");
+                    System.out.println("#1 Aplicar dinheiro       #");
+                    System.out.println("#2 Checar saldo investido #");
+                    System.out.println("#3 Voltar                 #");
+                    opcao_invest = ler.nextInt();
+                    if(opcao_invest == 3){
+                    
+                        break;
+                    }
+                    else if(opcao_invest == 1){
+                        
+                    System.out.println("# Digite o valor que quer aplicar: R$ ");
+                    valor_aplicacao = ler.nextFloat();
+                    aplicacao +=  valor_aplicacao;
+                        System.out.println("##########################");
+                        System.out.println("Valor aplicado com sucesso!");
+                        System.out.println("##########################");
+                        System.out.println(" ");
+                    }
+                    else if(opcao_invest == 2){
+                        System.out.println("##########################");
+                        System.out.println("#Valor aplicado: R$" + aplicacao);
+                        System.out.println("##########################");
+                                
+                        System.out.println(" ");
+                    }
+                        
+                    } while(opcao_invest != 3);
+                     break;
+
                 // ESCREVA AQUI NO MEIO OS OUTROS CASES 
                 
                 
