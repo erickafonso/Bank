@@ -18,7 +18,7 @@ Introduz a capacidade de realizar investimentos diretamente através do aplicati
 Em caso de dúvidas ou problemas, entre em contato com a equipe de desenvolvimento:
 
 - Ravar Souza - ravar@example.com
-- Erick Afonso - erick@example.com
+- Erick Afonso - erickafonsocc@gmail.com
 - Gabriel Brum - gabiconcli@gmail.com
 - Eduardo Corrêa - eduardo@example.com
 - Pedro Cruz - pedro@example.com
